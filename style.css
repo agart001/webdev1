@@ -9,6 +9,11 @@ body{
     max-width: 25rem;
 }
 
+img{
+    width: 50%;
+    display: block;
+}
+
 h1{
     color: red;
 }
