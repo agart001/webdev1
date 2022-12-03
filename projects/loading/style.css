@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#loading-container
+{
+  position: absolute;
+  left: 30%;
+  top: 25%;
+  
+  width: 300px;
+  height: 25px;
+  
+  border-radius: 5%;
+  background-color: #D9F2F1;
+}
+
+#loading{
+  position: relative;
+  right: 0;
+  bottom: 0;
+  
+  width: 150px;
+  height: 25px;
+  
+  background-color: #D9F2F1;
+  
+  transform-origin: left;
+  
+  animation: expand-x 4s ease-in-out 1;
+}
+
+@keyframes expand-x {
+  
+  0% {
+    transform: scaleX(0);
+    border-radius: 20%;
+    opacity: .5;
+  }
+  
+  100% {
+    transform: scaleX(2);
+    background-color: #579E9C;
+    border-radius: 0%;
+    opacity: 1;
+  }
+}
+
+#loading-end{
+  position: relative;
+  left: 80%;
+  bottom: 128%;
+  
+  width: 40px;
+  height: 40px;
+
+  opacity: 0;
+  background-color: #579E9C;
+  
+  animation-name: breathe;
+  animation-duration: 1.75s;
+  animation-iteration-count: 1;
+  animation-delay: 2.5s;
+}
+
+@keyframes breathe{
+  0%{
+    background-color: #D9F2F1;
+    border-radius: 30%;
+    transform: scale(.4);
+    opacity: .5;
+  }
+  70%{
+    border-radius: 15%;
+    transform: scale(.8);
+    opacity: 1;
+  }
+  100%{
+    background-color: #579E9C;
+    border-radius: 0%;
+    transform: scale(.1);
+    left: 90%;
+    opacity: 0;
+  }
+}

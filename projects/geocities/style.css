@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto+Mono&display=swap');
+
+body{
+  margin: 0 auto;
+  background-image: url(https://media.giphy.com/media/j2l27fs8acRvtEBx2p/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: 250%;
+}
+
+header{
+  z-index: 1;
+}
+
+footer{
+  z-index: 1;
+}
+
+main{
+  z-index: 0;
+}
+
+.banner{
+  z-index: inherit;
+  position: fixed;
+  top: 0;
+  right: 0;
+  color: #fc21f5;
+  font-family: Kanit;
+  font-size: 4rem;
+  padding: .1em;
+  background-image: url(https://media.giphy.com/media/8J5UhIUlCSqRFRGI2Z/giphy.gif);
+  background-size: cover;
+}
+
+.bottom-banner{
+  z-index: inherit;
+  position: fixed;
+  top: 92%;
+  right: 0;
+  color: #fc21f5;
+  font-family: Kanit;
+  font-size: 2rem;
+  padding: .1em;
+  background-image: url(https://media.giphy.com/media/8J5UhIUlCSqRFRGI2Z/giphy.gif);
+  background-size: cover;
+}
+
+.space{
+  position: absolute;
+  top: 18%;
+  left: 5%;
+  width: 90%;
+  height: 60%;
+  background-image: url(https://media.giphy.com/media/9bTjZrytydVRK/giphy.gif);
+  background-size: cover;
+  background-position: center;
+}
+
+.space p{
+  position: relative;
+  top: 5%;
+  text-align: center;
+  
+  font-family: Kanit;
+  font-size: 6rem;
+  
+  background-image: url(https://img.freepik.com/free-vector/watercolor_91008-235.jpg?w=2000);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 45%;
+  color: transparent;
+}
+
+.water{
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  width: 90%;
+  height: 60%;
+  background-image: url(https://media.giphy.com/media/F6X3Dtcump4Yg/giphy.gif);
+  background-size: cover;
+  background-position: center;
+}
+
+.water p{
+  position: relative;
+  top: 5%;
+  text-align: center;
+  
+  font-family: Kanit;
+  font-size: 6rem;
+  
+  background-image: url(https://wallpaper.dog/large/988939.jpg);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 25%;
+  color: transparent;
+}
+
+.forest{
+  position: absolute;
+  top: 142%;
+  left: 5%;
+  width: 90%;
+  height: 60%;
+  background-image: url(https://media.giphy.com/media/w1bkHBIOg8o6I/giphy.gif);
+  background-size: cover;
+  background-position: center;
+}
+
+.forest p{
+  position: relative;
+  top: 5%;
+  text-align: center;
+  
+  font-family: Kanit;
+  font-size: 6rem;
+  
+  background-image: url(https://www.pitara.com/media/tree-rings.jpg);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 50%;
+  color: transparent;
+}

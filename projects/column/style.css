@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto+Mono&display=swap');
+
+
+:root {
+  --color-body-text: #d4ede6;
+  --color-body-bg: #319476;
+  --color-links: #4fa38a;
+  --color-links-hover: #a0aaa7;
+  --color-header-footer-bg: #1b5040;
+  --padding-header-footer: 3rem;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto Mono', monosp;
+  background-color: var(--color-body-bg);
+  color: var(--color-body-text);
+}
+
+main
+{
+  padding: 1rem;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--color-header-footer-bg);
+  padding: var(--padding-header-footer);
+}
+
+/* utility class */
+
+.center {
+  max-width: 30rem;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-family: 'Kanit', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 1rem 1rem;
+}
+
+
+p {
+  line-height: 1.65;
+}
+
+section {
+  margin-bottom: 4rem;
+  padding-top: 2rem;
+}
+
+section p {
+  margin: 3rem 2rem;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+header {
+  background-color: var(--color-header-footer-bg);
+  padding: var(--padding-header-footer);
+  margin-bottom: 2rem;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+a {
+  color: var(--color-links);
+}
+
+a:hover {
+  color: var(--color-links-hover);
+}
