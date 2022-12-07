@@ -20,16 +20,35 @@ body{
 header{
     background-color: var(--color-hf);
     
+    
     padding: 1rem;
-    flex-wrap: wrap;
 
     display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 footer
 {
     color: var(--color-hf);
+}
+
+#intro{
+    display: flex;
+    flex-flow: column;
+}
+
+#intro h2{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#intro p{
+    color: var(--color-a);
+
+    font-size: 1.15rem;
+
+    margin-top: .75rem;
+    max-width: 20rem;
 }
 
 #projects{
@@ -41,9 +60,11 @@ footer
     display: block;
     font-size: 1.25rem;
 
-    margin-top: .25rem;
+    margin-top: .5rem;
 
     color: var(--color-a);
+
+    text-align: center;
 }
 
 #projects a:visited{
@@ -52,17 +73,17 @@ footer
 
 #open-projects
 {
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 #recreation-projects
 {
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 
 h1{
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: var(--color-h1);
 }
 
