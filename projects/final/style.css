@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+p{
+    max-width: 25rem;
+}
+
+#content{
+    padding: 2rem;
+    display: flex;
+    flex-flow: column;
+}
+
+section h4{
+    margin-left: 5%;
+}
+
+section p{
+    margin-left: 10%;
+}
