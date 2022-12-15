@@ -12,12 +12,12 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-
-    min-width: 15rem;
 }
 
 body{
     background-color: var(--color-bg);
+
+    min-width: 15rem;
 }
 
 header{
@@ -57,14 +57,16 @@ a:hover{
 }
 
 img{
-    width: 500px;
-    max-width: 50%;
+    width: 100%;
+    max-width: 400px;
 
     border: .5rem solid var(--color-h2);
 
-    margin-left: 25%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    position: relative;
+
+    left: 1rem;
+
+    margin: 1rem auto;
 }
 
 h1{
